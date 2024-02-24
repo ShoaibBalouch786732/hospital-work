@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=REM&family=Roboto&family=Roboto+Slab:wght@500&family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-ser
+}.container{
+  background-image: linear-gradient(to bottom, rgba(7, 5, 5, 0.8), rgba(7, 5, 5, 0.8)), url('img/image.com1.jpg');
+   background-repeat: no-repeat;
+   width: 100vw;background-size: cover;
+   background-position: center;
+   
+   height: 100vh;
+}  
+
+
+
+
+
+  
+/* Reset default margin/padding */
+
+header {
+   /* Header background color */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Distribute items to the edges */
+  align-items: center; /* Center items vertically */
+}
+
+/* Style for the logo */
+.logo img {
+  
+  width: 16.25rem;
+    height: 6.5rem;
+    color: rgb(229,9,20);
+    fill: currentColor;
+    display: block; /* Adjust the width of the logo as needed */
+}
+
+/* Style for sign-in button */
+.sign-in-btn {
+  background-color: red; /* Button background color */
+  color: white; /* Text color */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}.Email{
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  }
+
+input[type="email"] {
+  background: transparent; /* Making the email input field transparent */
+  border: 1px solid #ccc;
+  line-height: 70px;
+  width: 550px;
+
+  margin-bottom: 10px;
+  margin-left: 50px
+}
+
+input[type="submit"] {
+  background-color: red; /* Red color for the submit button */
+  color: white;
+  border: none;
+ width: 200px;
+ margin-left: 5px;
+ line-height: 20px;
+  display: inline;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: darkred; /* Darker red color on hover */
+}
+
+  
+.testimonial{
+  color: white;
+  background-color:
+  #25041c; 
+ 
+  
+ 
+display: flex;
+justify-content: center;
+  align-items: center;
+
+
+width: 90%;
+
+  height: 50vh;
+
+  border-radius: 60px;
+  /* Adjust the height as needed */
+}
+.leftside {
+  flex: 1;
+  background-color:
+  #25041c;
+  
+  width: 50%;
+  height: 300px;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  padding: 20px;
+
+}.leftside img{
+  width: 100%;
+background-size: cover;
+}
+
+.rightside {
+  flex: 1;
+  margin-top: 15px;
+  background-color:
+  #25041c; 
+  width: 45%;
+  height: 300px;
+  overflow: hidden;
+
+
+}
+
+.curved-line{
+  
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+ background: linear-gradient(57deg, #360a0a, #041412);
+  height: 100vh;
+  display: flex; /* Added flex display */
+  justify-content: center;
+  align-items: center;}
+  .main {
+    width: 100%; margin-top: 25px;
+    margin: auto auto;
+  
+    color: white;
+    background-color:
+    #25041c; 
+  
+    display: grid;
+    margin-left: 5px;
+  margin-right:5px ;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+  }
+  
+  .card {
+    box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* transition: 0.3s*/
+    ;
+    width: 80%;
+    margin-left: 30px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }.container1 {
+    padding: 6px 16px;
+  } 
+    
+      #questions {
+        background: linear-gradient(57deg, #360a0a, #041412);
+        color: #ffffff;
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+      align-items: first baseline;
+      }
+  
+      button {
+        display: block;
+        margin: 15px;
+        padding: 20px;
+        background: none;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        font-size: large;
+        font-weight: 400;
+        cursor: pointer;background-color:rgb(57, 56, 56) ;
+      }
+  
+  
+ 
